@@ -1,11 +1,11 @@
 import { createPool } from 'mysql2/promise'
 import {DB_PASSWORD} from './config.js'
 export const pool = createPool({
-    host: 'localhost',
+    host: 'sql10.freesqldatabase.com',
     port: 3306,
-    user: 'root',
-    password: DB_PASSWORD,
-    database: 'tasksdb'
+    user: 'sql10642687',
+    password: bdaEXyxvKi,
+    database: 'sql10642687'
 })
 
 
