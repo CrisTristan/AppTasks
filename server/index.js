@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(indexRoutes);
 app.use(taskRoutes);
 
-app.use("/",express.static(join(__dirname, '../client/dist')))
+app.use("/",express.static(join(__dirname, '/dist')))
 
 app.listen(PORT);
 console.log(`Server is listening on port ${PORT}`);
