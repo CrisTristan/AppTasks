@@ -4,7 +4,7 @@ export const pool = createPool({
     host: 'sql10.freesqldatabase.com',
     port: 3306,
     user: 'sql10642687',
-    password: bdaEXyxvKi,
+    password: 'bdaEXyxvKi',
     database: 'sql10642687'
 })
 
