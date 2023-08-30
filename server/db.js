@@ -6,7 +6,9 @@ export const pool = createPool({
     user: '89ij67sf2q63bf5j5605',
     password: DB_PASSWORD,
     database: 'tasksdb',
-    ssl: true
+    ssl: {
+        rejectUnauthorized: false
+    }
 })
 
 
