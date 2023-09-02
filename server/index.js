@@ -3,7 +3,7 @@ import cors from "cors";
 import {dirname, join} from 'path'
 import {fileURLToPath} from 'url'
 import { PORT } from "./config.js";
-
+import {DB_PASSWORD} from "./config.js";
 import indexRoutes from "./routes/index.routes.js";
 import taskRoutes from "./routes/tasks.routes.js";
 
@@ -21,3 +21,4 @@ app.use("/",express.static(join(__dirname, '/dist')))
 
 app.listen(PORT);
 console.log(`Server is listening on port ${PORT}`);
+console.log(DB_PASSWORD);
